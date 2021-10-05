@@ -1,7 +1,7 @@
 # PC06-Funcy-Animation
 Start code &amp; tools to make your own animation using functions
 
-We're starting to move toward task-oriented programming--making code that uses almost entirely functions to execute a task. This will help us build toward Object Oriented Programming (OOP) which is the culmination of this course's education goals. Scary, right? #hallowee!
+We're starting to move toward task-oriented programming--making code that uses almost entirely functions to execute a task. This will help us build toward Object Oriented Programming (OOP) which is the culmination of this course's learning goals. Scary, right? #hallowee!
 
 As you are expending your skillset, you should consider looking to see if the solution you need exists already. Use search engines to search for:
 `python turtle` plus whatever the rest of your description is.<br>
