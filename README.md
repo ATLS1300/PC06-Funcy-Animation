@@ -19,7 +19,7 @@ Your assignment must:
 2. At least one function must be called within the animation loop (while loop)
 3. (Optional) have a conditional statement that stops the while loop (change the `running` value to `False`)
 
-## MP Due Fri
-## PC Due Weds
+## MP04 Due Fri
+## PC06 Due Weds
 
 ## Submit your assignment into this repository, along with MP04
