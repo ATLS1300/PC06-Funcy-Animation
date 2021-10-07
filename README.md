@@ -1,4 +1,6 @@
 # PC06-Funcy-Animation
+We're starting to move toward task-oriented programming--making code that uses almost entirely functions to execute a task. This will help us build toward Object Oriented Programming (OOP) which is the culmination of this course's learning goals. Scary, right? #hallowee!
+
 ### In this repo
 1. **img2gif.py** - Python turtle only works with .gif files. (Changing the extension or converting it in Adobe won't work.) To use this tool, download and place the file in the same folder as the image of choice. Read the code description carefully, and interact with the code in the command line console.
 2. **start_code.py** - Start code with commented sections to help your code organization. There are also some key changes to turtle! Including: <br>
@@ -7,14 +9,17 @@
     `running = True` this boolean variable is used to control the animation loop. To have stop conditions, you should use a conditional statement inside of the loop to change the value of running from `True` to `False`.
 3. **wrapAroundBoundary.py** - Example code demonstrating how while loops are used to make animations, how conditional statements can be used for edge detection.
 
-## PC06 Assignment Description & Notes
-We're starting to move toward task-oriented programming--making code that uses almost entirely functions to execute a task. This will help us build toward Object Oriented Programming (OOP) which is the culmination of this course's learning goals. Scary, right? #hallowee!
+## Work smart!
 
 **Protips**: 
 - Consider using code you've already created in this class. Build the pattern from PC03 or reuse the code from PC04 to make a cool pattern that moves or has some fun behavior. <br>
 - Behaviors do not have to be repetitive! They can wiggle, bounce, spin, get bigger or smaller, hide behind objects...
 - Image/object collision is **HARD** Keep it simple and plan to build on it as you learn!
+- You do not have to build your code following the organization described with comments. Build how you best work, then clean up afterward. 
+- Restart your kernel and run your code to make sure it works! 
+- **Submit your images with your files!!**
 
+**Use the Net**
 As you are expending your skillset, you should consider looking to see if the solution you need exists already. Use search engines to search for:<br>
     `python turtle` plus whatever the rest of your description is.<br>
 This means you'll get practice articulating and describing what you want your code to do!
@@ -24,6 +29,29 @@ This means you'll get practice articulating and describing what you want your co
 `# code borrowed from <URL>`
 
 There is also a repository of useful code for you to use. The 20% limit does not apply to this code, **but you must cite it**. Check back frequently, as it will regularly be updated (based on student requests)!
+
+## The Assignment
+Using the start_code.py in the repo, create an animation that is function based. You can do this 1 of 2 ways:
+
+1. (Medium difficulty) Call the function inside of the while loop like so:
+
+`running = True<br>
+**while** running:<br>
+    someFunction()`
+
+2. (Hard difficulty) Put the while loop inside of the function definition, so when it calls, it free-runs the animation.
+
+`def **someFunction**(step):<br>
+    **while** running:<br>
+        turtle.forward(step)<br>
+...<br>
+someFunction() # runs the whole shebang`
+
+Create an engaging and enticing animation. Consider:
+- using multiple turtles to draw complex patterns
+- storytelling--parables, memes and short stories are great inspirations
+- color, speed and textures to evoke moods and sensations
+- simple, high contrast linear movements can be very engaging!
 
 ## Requirements
 Your assignment must: <br>
