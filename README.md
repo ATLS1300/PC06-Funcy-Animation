@@ -35,17 +35,17 @@ Using the start_code.py in the repo, create an animation that is function based.
 
 1. (Medium difficulty) Call the function inside of the while loop like so:
 
-`running = True<br>
-**while** running:<br>
-    someFunction()`
+`running = Tru`e<br>
+`while running:`<br>
+ `   someFunction()`
 
 2. (Hard difficulty) Put the while loop inside of the function definition, so when it calls, it free-runs the animation.
 
-`def **someFunction**(step):<br>
-    **while** running:<br>
-        turtle.forward(step)<br>
-...<br>
-someFunction() # runs the whole shebang`
+`def **someFunction**(step):`<br>
+ `   while running:`<br>
+ `       turtle.forward(step)`<br>
+`...`<br>
+`someFunction() # runs the whole shebang`
 
 Create an engaging and enticing animation. Consider:
 - using multiple turtles to draw complex patterns
