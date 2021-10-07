@@ -4,9 +4,9 @@ We're starting to move toward task-oriented programming--making code that uses a
 ### In this repo
 1. **img2gif.py** - Python turtle only works with .gif files. (Changing the extension or converting it in Adobe won't work.) To use this tool, download and place the file in the same folder as the image of choice. Read the code description carefully, and interact with the code in the command line console.
 2. **start_code.py** - Start code with commented sections to help your code organization. There are also some key changes to turtle! Including: <br>
-    `turtle.tracer(0)` this command turns off turtle's built-in animation, but requires the panel to be updated manually.<br>
-    `panel.update()` this command updates the information sent to draw on the panel. This should be called at the end of a frame drawing (end of while loop block)<br>
-    `running = True` this boolean variable is used to control the animation loop. To have stop conditions, you should use a conditional statement inside of the loop to change the value of running from `True` to `False`.
+        `turtle.tracer(0)` this command turns off turtle's built-in animation, but requires the panel to be updated manually.<br>
+        `panel.update()` this command updates the information sent to draw on the panel. This should be called at the end of a frame drawing (end of while loop block)<br>
+        `running = True` this boolean variable is used to control the animation loop. To have stop conditions, you should use a conditional statement inside of the loop to change the value of running from `True` to `False`.
 3. **wrapAroundBoundary.py** - Example code demonstrating how while loops are used to make animations, how conditional statements can be used for edge detection.
 
 ## Work smart!
