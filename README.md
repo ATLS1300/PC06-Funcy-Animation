@@ -28,7 +28,7 @@ This means you'll get practice articulating and describing what you want your co
 `# code modified from <URL>`<br>
 `# code borrowed from <URL>`
 
-There is also a repository of useful code for you to use. The 20% limit does not apply to this code, **but you must cite it**. Check back frequently, as it will regularly be updated (based on student requests)!
+There is also a [repository of useful code](https://github.com/ATLS1300/EasyExamples) for you to use. The 20% limit does not apply to this code, **but you must cite it**. Check back frequently, as it will regularly be updated (based on student requests)!
 
 ## The Assignment
 Using the start_code.py in the repo, create an animation that is function based. You can do this 1 of 2 ways:
