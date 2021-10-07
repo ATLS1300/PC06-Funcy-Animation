@@ -61,6 +61,7 @@ Your assignment must: <br>
     
 ### Extra Credit (Grads must complete 2)
     - 0.5 pts - use an image for the turtle shape
+    - 0.5 pts - if using a <=5 turtles, try using them in a list!
     - 0.5 pts - have a conditional statement that stops the while loop (change the value of the variable `running` to `False`)
     - 1 pts - create a function that returns a boolean for any edge detection (remember descriptive naming!)
 
